@@ -1,0 +1,9 @@
+<!ELEMENT gallery (artwork+)>
+<!ELEMENT artwork (title, artist, year, type, description, price, link)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
